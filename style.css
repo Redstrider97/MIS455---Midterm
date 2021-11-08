@@ -9,15 +9,29 @@
 .clickables{
     padding-left: 70%;
     display: flex;
-    justify-content: right;
-    align-content: center;
+}
+.books {
+    margin: auto;
+    padding: 2%;
+}
+.courses {
+    margin: auto;
+    padding: 2%;
+}
+.others {
+    margin: auto;
+    padding: 2%;
+}
+.blog {
+    margin: auto;
+    padding: 2%;
 }
 .signIn {
+    display: inline;
+    margin: auto;
+    padding: 2%;
     background-color: green;
     border-radius: 30%;
-}
-.clickables {
-    margin: auto;
 }
 .header2 {
     display: flex;
@@ -29,8 +43,22 @@
     padding-right: 30%;
 }
 .leftText {
-
+margin: auto;
+padding-right: 5%;
 }
 .pic2 {
-
+    padding-left: 5%;
+    margin: auto;
+}
+.l1{
+    color: red;
+}
+.getStarted{
+    font-size: 20px;
+    display: inline;
+    background-color: green;
+    border-radius: 25px;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
 }
