@@ -1,35 +1,37 @@
 .upperBox{
     background-color: rgba(209, 235, 197, 0.644);
+    padding-bottom: 5%;
+    margin:auto;
 }
 .header {
     display: flex;
-    justify-content: center;
-    align-content: center;
 }
 .clickables{
-    padding-left: 70%;
     display: flex;
+    margin: auto;
+}
+.headerLogo {
+    margin: auto;
 }
 .books {
     margin: auto;
-    padding: 2%;
+    padding-right: 2%;
 }
 .courses {
     margin: auto;
-    padding: 2%;
+    padding-right: 2%;
 }
 .others {
     margin: auto;
-    padding: 2%;
+    padding-right: 2%;
 }
 .blog {
     margin: auto;
-    padding: 2%;
+    padding-right: 2%;
 }
 .signIn {
     display: inline;
     margin: auto;
-    padding: 2%;
     background-color: green;
     border-radius: 30%;
 }
@@ -43,8 +45,8 @@
     padding-right: 30%;
 }
 .leftText {
-margin: auto;
-padding-right: 5%;
+    margin: auto;
+    padding-right: 5%;
 }
 .pic2 {
     padding-left: 5%;
@@ -58,7 +60,28 @@ padding-right: 5%;
     display: inline;
     background-color: green;
     border-radius: 25px;
-    width: 200px;
-    height: 150px;
-    padding: 5px;
+    padding: 3px;
+}
+.cols {
+    margin: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bookPic {
+    padding: 2%;
+    background-color: rgba(220, 233, 214, 0.644);
+}
+.studPic {
+    padding: 2%;
+    background-color: rgba(220, 233, 214, 0.644);
+}
+.testPic {
+    padding: 2%;
+    background-color: rgba(220, 233, 214, 0.644);
+}
+.studPic2 {
+    padding: 2%;
+    background-color: rgba(220, 233, 214, 0.644);
 }
