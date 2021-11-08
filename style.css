@@ -1,6 +1,6 @@
 .upperBox{
     background-color: rgba(209, 235, 197, 0.644);
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     margin:auto;
 }
 .header {
@@ -64,7 +64,7 @@
 }
 .cols {
     margin: auto;
-    padding-top: 5%;
+    padding-top: 2%;
     display: flex;
     justify-content: center;
     align-content: center;
