@@ -1,0 +1,36 @@
+.upperBox{
+    background-color: rgba(209, 235, 197, 0.644);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.clickables{
+    padding-left: 70%;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.signIn {
+    background-color: green;
+    border-radius: 30%;
+}
+.clickables {
+    margin: auto;
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.leftText {
+
+}
+.pic2 {
+
+}
