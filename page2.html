@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="page2">
+    <a href="index.html"><button class="home">Home</button></a>
+    <h1 class="head1">Fill up form to calculate monthly bonus</h1>
     <div class="container">
-        <div class="box1">
-    <input id="name" type="text" placeholder="Enter your name"> <br><br>
-    <input id="age" type="text" placeholder="Enter your Age"> <br><br>
-    <input id="salary" type="text" placeholder="Enter Total Monthly Salary"> <br><br>
-    <button id="result" onclick="process()">Show Total Yearly Bonus Amount</button>
+    <div class="box1">
+    <input class="form" id="name" type="text" placeholder="Enter your name"> <br><br>
+    <input class="form" id="age" type="text" placeholder="Enter your Age"> <br><br>
+    <input class="form" id="salary" type="text" placeholder="Enter Total Monthly Salary"> <br><br>
+    <button class="page2btn" id="result" onclick="process()">Show Monthly Bonus</button>
         </div>
     <div class="box1">
-        <h4>Your Total Yearly Bonus Amount is: </h4>
-            <p id="para1"></p>
-            <p id="para2"></p>
-            <p id="p3"></p>
+            <p class="result" id="para1"></p>
             <script src="index.js"></script>
     </div>
 </div>

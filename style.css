@@ -4,7 +4,7 @@ body{
 .upperBox{
     background-color: rgb(240, 255, 240);
     padding-bottom: 3%;
-        margin:auto;
+    margin:auto;
 }
 .header {
     display: flex;
@@ -84,6 +84,9 @@ body{
     border-radius: 25px;
     padding: 10px;
 }
+a:link {
+    text-decoration: none;
+}
 .cols {
     padding-left: 2%;
     padding-right: 2%;
@@ -145,7 +148,7 @@ body{
     background-color: rgb(240, 255, 240);
 }
 .container {
-    margin-top: 20%;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -153,5 +156,51 @@ body{
 .box1 {
     padding-left: 2%;
     padding-right: 2%;
+    padding-top: 1%;
+}
+.page2btn {
+    text-align: center;
+    word-wrap: none;
+    text-decoration: none;
+    border:none;
+    width: 100%;
+    font-weight: 4px;
+    color: white;
+    font-size: 16px;
+    display: inline;
+    background-color: rgb(33, 181, 115);
+    border-radius: 25px;
+    padding: 14px;
+    white-space: nowrap;
+}
+.result {
+    font-weight: bold;
+    font-size: 17px;
+}
+.head1 {
     padding-top: 4%;
+    text-align: center;
+}
+.form {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.home {
+        text-align: center;
+        word-wrap: none;
+        text-decoration: none;
+        border:none;
+        width: 5%;
+        font-weight: 4px;
+        color: white;
+        font-size: 16px;
+        display: inline;
+        background-color: rgb(33, 181, 115);
+        border-radius: 25px;
+        padding: 14px;
+        margin-top: 1%;
+        margin-left: 1%;
+        white-space: nowrap;
 }
